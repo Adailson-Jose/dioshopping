@@ -46,12 +46,12 @@ const HomePage = () => {
 
     return(
         <Grid container spacing={3} className={classes.root}>
-            <Grid item xs={3}>
-                <Paper className={classes.paper}>
+            <Grid className="col-lg-2 col-md-3 col-sm-5 col-xs-12 m-1 borda p-0" style={{borderRadius:'15px'}}>
+                <Paper className={classes.paper} style={{borderRadius:'20px'}}>
                     <Typography variant='h5'>
                         Categorias
                     </Typography>
-                    <List>
+                    <List className="m-0 p-1" style={{backgroundColor: ' #b3d9ff', width:'100%', color: ' #000000'}}>
                         {category.map(
                             category => {
                                 return (
@@ -66,7 +66,7 @@ const HomePage = () => {
                     </List>
                 </Paper>
             </Grid>
-            <Grid container xs={9} spacing={3} className={classes.root}>
+            <Grid container xs={9} spacing={3} className={classes.root} style={{backgroundColor: ' #b3d9ff', width:'100%', color: ' #000000'}}>
                 {products.map(item => {
                     return(
                         <Card

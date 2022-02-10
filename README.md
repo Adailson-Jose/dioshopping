@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Bootcamp Inter Frontend Developer (React e Node) da DIO!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Integrando um Backend em Node.js com um Frontend em React para um E-commerce
 
-## Available Scripts
+# Projeto base desenvolvido por Especialista Nathaly Sousa [https://github.com/nathyts ]
 
-In the project directory, you can run:
+* Backend Original
+[GitHub do projeto original do backend da Nathaly](https://github.com/nathyts/api-dioshopping)
 
-### `yarn start`
+* Frontend Original
+[GitHub do projeto original do frontend da Nathaly](https://github.com/nathyts/dioshopping)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Alterações promovidas por Adailson:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Alteração das cores das interfaces do projeto;
 
-### `yarn test`
+1. Criação de uma logo para o dio shopping;
+1. Criação de um favicon.ico para o projeto;
+1.Implementação do menu de categorias, ao clicar numa categoria, mostra apenas as camisas desta categoria;
+1.Fiz a responsividade do site utilizando as classes do bootstrap e css;
+1.Fiz a verificação do email de contato para aceitar emails no formato certo;
+1.Troquei alguns componentes do material-ui para tags htmls para usá-las com o bootstrap e css mesmo;
+1.Tive que fazer umas alterações na page contato.js pois estava ocorrendo uns bugs na validação dos inputs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instruções para rodar a aplicação
+## Frontend
 
-### `yarn build`
+```bash
+  $ npm install
+  $ npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Backend 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone o repositório disponível em [sportshop-api](https://github.com/volinha/sportshop-api).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale e rode o servidor
 
-### `yarn eject`
+```bash
+  $ npm install
+  $ npm run dev
+```
+# Principais Ferramentas utilizadas nesse projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Frontend
+1. ReactJS
+1. Styled Components
+1.  Material-UI
+1.  JavaScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Backend
+1.  Express
+1.  NodeJS
+1.  TypeORM
+1.  TypeScript
