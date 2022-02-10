@@ -13,7 +13,6 @@
 ## Alterações promovidas por Adailson:
 
 1. Alteração na paleta de cores do projeto;
-
 1.Verificação do e-mail para aceitar apenas e-mails no formato certo;
 
 ## Instruções para rodar a aplicação
