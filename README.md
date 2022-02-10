@@ -12,15 +12,9 @@
 
 ## Alterações promovidas por Adailson:
 
-1. Alteração das cores das interfaces do projeto;
+1. Alteração na paleta de cores do projeto;
 
-1. Criação de uma logo para o dio shopping;
-1. Criação de um favicon.ico para o projeto;
-1.Implementação do menu de categorias, ao clicar numa categoria, mostra apenas as camisas desta categoria;
-1.Fiz a responsividade do site utilizando as classes do bootstrap e css;
-1.Fiz a verificação do email de contato para aceitar emails no formato certo;
-1.Troquei alguns componentes do material-ui para tags htmls para usá-las com o bootstrap e css mesmo;
-1.Tive que fazer umas alterações na page contato.js pois estava ocorrendo uns bugs na validação dos inputs.
+1.Verificação do e-mail para aceitar apenas e-mails no formato certo;
 
 ## Instruções para rodar a aplicação
 ## Frontend
@@ -31,8 +25,6 @@
 ```
 
 ##  Backend 
-
-Clone o repositório disponível em [sportshop-api](https://github.com/volinha/sportshop-api).
 
 Instale e rode o servidor
 
