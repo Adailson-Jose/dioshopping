@@ -2,8 +2,7 @@
 
 * Integrando um Backend em Node.js com um Frontend em React para um E-commerce
 
-# Projeto base desenvolvido por Especialista Nathaly Sousa [https://github.com/nathyts ]
-
+# Projeto base desenvolvido por Especialista Nathaly Sousa
 * Backend Original
 [GitHub do projeto original do backend da Nathaly](https://github.com/nathyts/api-dioshopping)
 
@@ -13,34 +12,14 @@
 ## Alterações promovidas por Adailson:
 
 1. Alteração na paleta de cores do projeto;
-1.Verificação do e-mail para aceitar apenas e-mails no formato certo;
+2. Verificação do e-mail para aceitar apenas e-mails no formato certo;
 
 ## Instruções para rodar a aplicação
-## Frontend
 
-```bash
-  $ npm install
-  $ npm start
-```
+1. Clone o repositório de back-end https://github.com/Adailson-Jose/api-dioshopping
+2. npm i
+3. npm run dev
 
-##  Backend 
-
-Instale e rode o servidor
-
-```bash
-  $ npm install
-  $ npm run dev
-```
-# Principais Ferramentas utilizadas nesse projeto
-
-# Frontend
-1. ReactJS
-1. Styled Components
-1.  Material-UI
-1.  JavaScript
-
-# Backend
-1.  Express
-1.  NodeJS
-1.  TypeORM
-1.  TypeScript
+4. Clone o repositório de front-end https://github.com/Adailson-Jose/dioshopping
+5. npm i
+6. npm start
